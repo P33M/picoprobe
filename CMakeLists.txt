@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION 3.12)
 
+set(CMAKE_BUILD_TYPE RelWithDebInfo)
+
 include(pico_sdk_import.cmake)
 
 set(FREERTOS_KERNEL_PATH ${CMAKE_CURRENT_LIST_DIR}/freertos)
